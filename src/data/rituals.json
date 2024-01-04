@@ -1,0 +1,20 @@
+[
+   {
+        "nome": "Amaldiçoar Arma",
+        "elemento": "**Sangue morte conhecimento Energia",
+        "execucao": "padrão",
+        "alcance": "toque",
+        "alvo": "1 arma corpo a corpo ou pacote de munição",
+        "duracao": "cena",
+        "descricao": "Quando aprender este ritual, escolha um elemento entre Conhecimento, Energia, Morte e Sangue. Este ritual passa a ser do elemento escolhido. Você imbui a arma ou munições com o elemento, fazendo com que causem +1d6 de dano do tipo do elemento.",
+        "discente":{
+            "custo": 2,
+            "desc": "muda o bônus de dano para +2d6. Requer 2º círculo."
+        },
+        "verdadeiro":{
+            "custo": 5,
+            "desc": "muda o bônus de dano para +4d6. Requer 3º círculo e afinidade"
+        },
+        "imgSrc": "https://static.wikia.nocookie.net/ordemparanormal/images/1/1e/Símbolo_Amaldiçoar_Arma_com_Energia.png/revision/latest?cb=20221025170457&path-prefix=pt-br"
+    }
+]
