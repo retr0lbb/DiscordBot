@@ -13,6 +13,25 @@ const results = require("../data/rituals.json")
 
 
 
+/// NÂO MEXE PQ TA FUNCIONANDO
+
+
+
+function GetSelectedRitual(ritualName){
+    if(!ritualName){
+        console.log("Não ha rituais com esse nome no sistema")
+        return;
+    }
+    let selectedRitual;
+    for(let i = 0; i<= results.length; i++ ){
+        if(ritualName == results[i]["nome"]){
+            selectedRitual = results[i];
+            break;
+        }
+    }
+    return selectedRitual;
+}
+
 module.exports = {
     data: new SlashCommandBuilder()
         .setName("todosrituais")
@@ -21,26 +40,28 @@ module.exports = {
             option.setName('ritual')
                 .setDescription('o ritual que vc quer achar')
                 .setRequired(true)),
-        async execute(interac){
+        
+        
+        
+                async execute(interac){
+            const ritualName = interac.options.getString("ritual")
 
-
-
-            
+            const ritual = GetSelectedRitual(ritualName)
 
             const embedExample = new EmbedBuilder()
                 .setColor(0x0099FF)
-                .setTitle(results[0].nome)
-                .setURL(results[0].imgSrc)
-                .setDescription(results[0].descricao)
-                .setThumbnail(results[0].imgSrc)
+                .setTitle(ritual.nome)
+                .setURL(ritual.imgSrc)
+                .setDescription(ritual.descricao)
+                .setThumbnail(ritual.imgSrc)
                 .addFields(
-                    {name: "Elemento", value: results[0].elemento},
-                    {name: "Duração", value: results[0].duracao},
-                    {name: "alcance", value: results[0].alcance},
-                    {name: "execucao", value: results[0].execucao},
-                    {name: "alvo", value: results[0].alvo}
+                    {name: "Elemento", value: ritual.elemento},
+                    {name: "Duração", value: ritual.duracao},
+                    {name: "alcance", value: ritual.alcance},
+                    {name: "execucao", value: ritual.execucao},
+                    {name: "alvo", value: ritual.alvo}
                 )
-                .setImage(results[0].imgSrc)
+                .setImage(ritual.imgSrc)
 
             
 
