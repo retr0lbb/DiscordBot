@@ -19,11 +19,18 @@ async function readCommands() {
             const command = require(filePath);
             console.log(file[0])
 
-            if ("data" in command && "execute" in command) {
+            if ("data" in command && "execute" in command, "description" in command.data) {
                 commands.push(command.data.toJSON());
                 console.log(commands);
             } else {
                 console.log("Comando não possui os recursos necessários:", file);
+            }
+            if ("autoComplete" in command) {
+                commands.push({
+                    name: command.data.name,
+                    type: 2,
+                    
+                });
             }
         }
     } catch (err) {

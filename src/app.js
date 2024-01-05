@@ -43,7 +43,25 @@ client.once("ready", (e)=>{
    console.log("The bot is ready as", e.user.tag )
 });
 client.on("interactionCreate",async (interaction) =>{
-
+    if(interaction.isAutocomplete()){
+        const command = interaction.client.commands.get(interaction.commandName);
+        if(!command){
+            console.error("The command Does not exists")
+            return;
+        }
+        try {
+            await command.autoComplete(interaction)
+        } catch (error) {
+            if(error){
+                if(error.rawError.code === 500){
+                    throw error
+                }else{
+                    console.log("um erro menor ocoreu");
+                    console.error(error)
+                }
+            }
+        }
+    }
     if(!interaction.isChatInputCommand()){
         return;
     }

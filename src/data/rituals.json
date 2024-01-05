@@ -1,7 +1,7 @@
 [
    {
         "nome": "Amaldiçoar Arma",
-        "elemento": "**Sangue morte conhecimento Energia",
+        "elemento": "Sangue morte conhecimento Energia",
         "circulo": "1°",
         "execucao": "padrão",
         "alcance": "toque",
@@ -176,7 +176,7 @@
             "custo": 5,
             "desc": "muda o alvo para aliados à sua escolha e o bônus para +5. Requer 3º círculo e afinidade."
         },
-        "imgSrc": "none"
+        "imgSrc": "https://i.imgur.com/8muZiNq.png"
     },
     {
         "nome": "Eletrocussão",
@@ -196,7 +196,7 @@
             "custo": 5,
             "desc": "muda a área para “alvos escolhidos”. Em vez do normal, você dispara vários relâmpagos, um para cada alvo escolhido, causando 8d6 pontos de dano de Energia em cada. Requer 3º círculo."
         },
-        "imgSrc": "none"
+        "imgSrc": "https://i.imgur.com/8muZiNq.png"
     },
     {
         "nome": "Embaralhar",
@@ -236,7 +236,7 @@
             "custo": 5,
             "desc": "a luz é cálida como a do sol. Dentro da área seus aliados recebem +O em testes de Vontade, e seus inimigos ficam ofuscados. Requer 3º círculo."
         },
-        "imgSrc": "none"
+        "imgSrc": "https://i.imgur.com/8muZiNq.png"
     },
     {
         "nome": "Polarização Caótica",
