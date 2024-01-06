@@ -2,8 +2,7 @@
 const { BotClient } = require("./Model/Client.model");
 const path = require("path")
 const fs = require("fs")
-const {Collection, User} = require("discord.js");
-const { data } = require("./commands/pingCommand");
+const {Collection} = require("discord.js");
 require("dotenv").config();
 
 const BOT_TOKEN = process.env.BOT_TOKEN;
@@ -84,5 +83,8 @@ client.on("interactionCreate",async (interaction) =>{
 
 client.start(BOT_TOKEN);
 
+
+
+module.exports = client
 
 

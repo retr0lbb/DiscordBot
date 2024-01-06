@@ -7,7 +7,7 @@
     "dev": "node ."
   },
   "keywords": [],
-  "author": "",
+  "author": "retr0lbb",
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0",
