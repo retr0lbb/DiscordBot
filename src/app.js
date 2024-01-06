@@ -85,6 +85,6 @@ client.start(BOT_TOKEN);
 
 
 
-module.exports = client
+module.exports = () => {};
 
 
