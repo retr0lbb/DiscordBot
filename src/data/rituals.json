@@ -517,5 +517,1128 @@
             "desc": "além do normal, rituais conjurados dentro da névoa causam dano maximizado."
         },
         "imgSrc": "https://i.imgur.com/bD2x7vv.png"
+    },
+
+    {
+        "nome": "Aprimorar Mente",
+        "elemento": "** Conhecimento **",
+        "circulo": "2°",
+        "execucao": "padrão",
+        "alcance": "toque",
+        "alvo": "1 ser",
+        "duracao": "cena",
+        "resistencia": "Nenhuma",
+        "descricao": "O alvo tem sua mente energizada por fagulhos do Conhecimento. Ele recebe +1 em Intelecto ou Presença, à escolha dele (esse aumento não fornece PE ou perícias treinadas).",
+          "discente":{
+            "custo": 3,
+            "desc": "muda o bônus para +2. Requer 3º círculo."
+        },
+        "verdadeiro":{
+            "custo": 7,
+            "desc": "muda o bônus para +3. Requer 4º círculo e afinidade."
+        },
+        "imgSrc": "https://i.imgur.com/bD2x7vv.png"
+    },
+    {
+        "nome": "Detecção de Ameaças",
+        "elemento": "** Conhecimento **",
+        "circulo": "2°",
+        "execucao": "padrão",
+        "alcance": "pessoal",
+        "alvo": "esfera de 18m de raio",
+        "duracao": "cena",
+        "resistencia": "Nenhuma",
+        "descricao": "Você recebe uma percepção aguçada sobre perigos à sua volta. Quando um ser hostil ou armadilha entra na área do efeito, você tem uma sensação de perigo e pode gastar uma ação de movimento para fazer um teste de Percepção (DT 20). Se passar, sabe a direção e distância do perigo.",
+          "discente":{
+            "custo": 3,
+            "desc": "além do normal, você não fica desprevenido contra perigos detectados e recebe +5 em testes de resistência contra armadilhas. Requer 3º círculo."
+        },
+        "verdadeiro":{
+            "custo": 7,
+            "desc": "muda a duração para “1 dia” e concede os mesmos benefícios de discente. Requer 4º círculo."
+        },
+        "imgSrc": "https://i.imgur.com/bD2x7vv.png"
+    },
+    {
+        "nome": "Esconder dos Olhos",
+        "elemento": "** Conhecimento **",
+        "circulo": "2°",
+        "execucao": "livre",
+        "alcance": "pessoal",
+        "alvo": "você",
+        "duracao": "1 rodada",
+        "resistencia": "Nenhuma",
+        "descricao": "Você fica invisível, incluindo seu equipamento, recebendo camuflagem total e +15 em testes de Furtividade. Como o normal, seres que não possam vê-lo ficam desprevenidos contra seus ataques. O efeito termina se você faz um ataque ou usa uma habilidade hostil. Ações contra objetos livres não dissipam Esconder dos Olhos (você pode tocar ou apanhar objetos que não estejam sendo segurados por outros seres). Causar dano indiretamente — por exemplo, prepar explosivos para detonar mais tarde — não é considerado um ataque. Objetos soltos voltam a ser visíveis e objetos apanhados por você ficam invisíveis. Uma luz transportada nunca fica invisível (mesmo que sua fonte seja). Qualquer parte de um item carregado que se estenda além de seu alcance corpo a corpo natural se torna visível.",
+          "discente":{
+            "custo": 3,
+            "desc": "muda a duração para “sustentada”. Em vez do normal, você gera uma esfera de invisibilidade. Você e todos os aliados a até 3m de você se tornam invisíveis, como no efeito normal do ritual (ainda ficam visíveis caso façam uma ação hostil). A esfera se move juntamente com você; qualquer coisa que saia da esfera fica visível. Requer 3º círculo."
+        },
+        "verdadeiro":{
+            "custo": 7,
+            "desc": "muda a execução para “ação padrão”, o alcance para “toque”, o alvo para “1 ser” e a duração para “sustentada”. O efeito não é dissipado caso o alvo faça um ataque ou ação hostil. Requer 4º círculo e afinidade."
+        },
+        "imgSrc": "https://i.imgur.com/bD2x7vv.png"
+    },
+    {
+        "nome": "Invadir Mente",
+        "elemento": "** Conhecimento **",
+        "circulo": "2°",
+        "execucao": "padrão",
+        "alcance": "médio ou toque",
+        "alvo": "1 ser ou 2 pessoas voluntárias",
+        "duracao": "instantânea ou 1 dia",
+        "resistencia": "Vontade parcial ou nenhuma",
+        "descricao": "Quando conjura este ritual, você gera um dos efeitos a seguir, a sua escolha: rajada mental (usa os primeiros parâmetros do cabeçalho acima) ou ligação telepática (usa os segundos parâmetros). Rajada Mental: você infecta a mente do alvo com o Conhecimento proibido do Outro Lado, dilacerando o cérebro dele. O alvo sofre 6d6 pontos de dano de Conhecimento e fica atordoado por uma rodada. Se passar no teste de Vontade, sofre metade do dano e não fica atordoado. Um mesmo alvo só pode ficar atordoado por este ritual uma vez por cena. Ligação Telepática: você cria um elo mental entre duas pessoas (você pode ser uma delas), que podem se comunicar independente da distância pela duração do ritual (1 dia).",
+          "discente":{
+            "custo": 3,
+            "desc": "se escolhar rajada mental, aumenta o dano para 10d6. Se escolher ligação telepática, em vez do normal, você cria um elo mental que permite que você veja e ouça pelos sentidos do alvo, gastando uma ação de movimento para se concentrar. Um alvo involuntário pode fazer um teste de Vontade para suprimir o ritual por uma hora. Requer 3º círculo."
+        },
+        "verdadeiro":{
+            "custo": 7,
+            "desc": " se escolher rajada mental, aumenta o dano para 10d6 e muda o alvo para “seres escolhidos” . Se escolher ligação telepática, você pode criar um vínculo mental entre até 5 pessoas."
+        },
+        "imgSrc": "https://i.imgur.com/h0iRpqg.png"
+    },
+    {
+        "nome": "Localização",
+        "elemento": "** Conhecimento **",
+        "circulo": "2°",
+        "execucao": "padrão",
+        "alcance": "pessoal",
+        "alvo": "círculo com 90m de raio",
+        "duracao": "cena",
+        "resistencia": "Nenhuma",
+        "descricao": "Esta ritual pode encontrar uma pessoa ou objeto a sua escolha. Você pode pensar em termos gerais (“um policial”, “algo de metal”) ou específicos (“A delegada Joana”, “uma pistola”). O ritual indica a direção e distância da pessoa ou objeto mais próximo desse tipo, caso esteja ao alcance. Você pode movimentar-se para continuar procurando. Procurar algo muito específico (“a chave do armazém 4 no porto”) exige que você tenha em mente uma imagem precisa do objeto; caso a imagem não seja parecida com a verdade, o ritual falha, mas você gasta os PE mesmo assim. Este ritual pode ser bloqueado por uma fina camada de chumbo. ",
+          "discente":{
+            "custo": 3,
+            "desc": "muda o alcance para “toque”, o alvo para “1 pessoa” e a duração para “1 hora”. Em vez do normal, a pessoa tocada descobre o caminho mais direto para entrar ou sair de um lugar. Assim, o ritual pode ser usado para descobrir a rota até o relicário de uma catedral ou a saída mais próxima de uma caverna (mas não para encontrar a localização de uma pessoa ou objeto; funciona apenas em relação a lugares). Caso a pessoa demore mais de uma hora para percorrer o caminho, o conhecimento se perde."
+        },
+        "verdadeiro":{
+            "custo": 7,
+            "desc": "aumenta a área para círculo de 1km de raio. Requer 4º círculo."
+        },
+        "imgSrc": "https://i.imgur.com/h0iRpqg.png"
+    },
+    {
+        "nome": "Chamas do Caos",
+        "elemento": "** Energia **",
+        "circulo": "2°",
+        "execucao": "padrão",
+        "alcance": "curto",
+        "alvo": "veja texto",
+        "duracao": "cena",
+        "resistencia": "Nenhuma",
+        "descricao": "Você manipula o calor e o fogo. Ao conjurar o ritual, escolha um dos seguintes efeitos. Chamejar: o alvo é uma arma corpo a corpo. Ela causa +1d6 pontos de dano de fogo. Esquentar: o alvo é um objeto, que começa a esquentar. Ele sofre 1d6 pontos de dano de fogo por rodada e causa o mesmo dano a qualquer ser que o esteja empunhando ou vestindo. A critério do mestre, o objeto ou o ser pode pegar fogo. Um ser pode gastar uma ação completa para resfriar o objeto (jogando areia ou se jogando numa fonte de água próxima, por exemplo) e cancelar o efeito do ritual. Extinguir: o alvo é uma chama de tamanho Grande ou menor, que é apagada. Isso cria uma nuvem de fumaça que ocupa uma esfera de 3m de raio centrada onde estava a chama. Dentro da fumaça, seres têm camuflagem. Modelar: o alvo é uma chama de tamanho Grande ou menor. A cada rodada, você pode gastar uma ação livre para movimentá-la 9m em qualquer direção. Se atravessar o espaço ocupado por um ser, ela causa 3d6 pontos de dano de fogo nele. Um ser só pode sofrer dano dessa maneira uma vez por rodada.",
+          "discente":{
+            "custo": 3,
+            "desc": "muda a duração para sustentada e adiciona “Resistência: Reflexos reduz à metade”. Em vez do normal, uma vez por rodada você pode gastar uma ação de movimento para projetar uma labareda, num alvo em alcance curto. O alvo sofre 4d6 pontos de dano de Energia (Reflexos reduz à metade). "
+        },
+        "verdadeiro":{
+            "custo": 7,
+            "desc": "como discente, mas muda o dano para 8d6. Requer 3º círculo."
+        },
+        "imgSrc": "https://i.imgur.com/6lmDaSW.png"
+    },
+    {
+        "nome": "Contenção Fantasmagórica",
+        "elemento": "** Energia **",
+        "circulo": "2°",
+        "execucao": "padrão",
+        "alcance": "médio",
+        "alvo": "1 ser",
+        "duracao": "cena",
+        "resistencia": "Reflexos anula",
+        "descricao": "Três laços de Energia surgem do chão e se enroscam no alvo, deixando-o agarrado. O alvo pode tentar se livrar, gastando uma ação padrão para fazer um teste de Atletismo (DT do ritual). Se passar, destrói um laço, mais um laço adicional para cada 5 pontos pelos quais superou a DT. Os laços também podem ser atacados e destruídos: cada um tem Defesa 10, 10 PV, RD 5 e imunidade a Energia. Se todos os laços forem destruídos, o ritual é dissipado. Por serem feitos de Energia, os laços afetam criaturas incorpóreas.",
+          "discente":{
+            "custo": 3,
+            "desc": " aumenta o número de laços para 6, e você pode escolher o alvo de cada laço, com um mínimo de dois laços por alvo. Requer 3º círculo."
+        },
+        "verdadeiro":{
+            "custo": 7,
+            "desc": "como discente, e cada laço destruído libera uma onda de choque que causa 2d6+2 pontos de dano de Energia no alvo agarrado. Requer 3º círculo e afinidade."
+        },
+        "imgSrc": "https://i.imgur.com/6lmDaSW.png"
+    },
+    {
+        "nome": "Dissonância Acústica",
+        "elemento": "** Energia **",
+        "circulo": "2°",
+        "execucao": "padrão",
+        "alcance": "médio",
+        "alvo": "esfera com 6m de raio",
+        "duracao": "sustentada",
+        "resistencia": "Nenhuma",
+        "descricao": "Você manipula a vibração do ar, criando uma área de dissonância sonora. Enquanto estiverem na área, todos os seres ficam surdos. Essa dissonância impede que seres dentro da área conjurem rituais.",
+          "discente":{
+            "custo": 1,
+            "desc": "muda a área para “alvo: 1 objeto”. Em vez do normal, o alvo emana uma área de silêncio com 3m de raio. Se conjurar o ritual num objeto de um ser involuntário, ele tem direito a um teste de Vontade para anulá-lo."
+        },
+        "verdadeiro":{
+            "custo": 3,
+            "desc": "muda a duração para cena. Em vez do normal, nenhum som pode deixar a área, mas seres dentro da área podem falar, ouvir e conjurar rituais normalmente. Requer 3º círculo."
+        },
+        "imgSrc": "https://i.imgur.com/6lmDaSW.png"
+    },
+    {
+        "nome": "Sopro do Caos",
+        "elemento": "** Energia **",
+        "circulo": "2°",
+        "execucao": "padrão",
+        "alcance": "médio",
+        "alvo": "varia",
+        "duracao": "sustentada",
+        "resistencia": "veja texto",
+        "descricao": "Você altera os movimentos de massas de ar de forma caótica. Ao conjurar o ritual, escolha um dos efeitos abaixo. Ascender: cria uma corrente de ar ascendente capaz de erguer do chão um ser ou objeto Médio, fazendo o alvo flutuar para cima e para baixo conforme sua vontade. Você pode gastar uma ação de movimento para subir ou descer o alvo até 6m por rodada, até um máximo de 30m de altura. Você não pode mover o alvo horizontalmente — mas o alvo pode, por exemplo, escalar uma colina ou se apoiar no teto para mover-se lateralmente (com metade de seu deslocamento normal). Um ser levitando fica vulnerável. Alvos involuntários têm direito a um teste de Fortitude no início de cada um de seus turnos para encerrar o efeito. Derrubar um alvo flutuando (simplesmente parando a corrente de ar) causa o dano normal de queda, mas um alvo que passe no teste pode “nadar” para o chão contra a corrente. Você pode usar essa opção para fazer uma manobra derrubar contra um alvo voador dentro do alcance, usando Ocultismo em vez de Luta. Sopro: cria uma lufada de vento a partir de suas mãos, que empurra qualquer alvo Médio ou menor, em um cone de 4,5m — faça uma manobra empurrar usando Ocultismo em vez de Luta, usando uma mesma rolagem sua para todos os alvos. A lufada de vento também faz qualquer coisa que um vento forte e súbito faria, como levantar pó, dispersar vapores, apagar chamas, espalhar papéis ou mover uma embarcação. Manter o sopro ativo exige uma ação padrão no seu turno. Vento: cria uma área de vento forte (página 291) dentro do alcance. Se conjurada numa área que já esteja com algum efeito de vento, aumenta esse efeito em um passo. Manter o vento ativo requer uma ação de movimento. Você também pode usar essa opção para reduzir os efeitos de vento em uma área.",
+          "discente":{
+            "custo": 3,
+            "desc": "passa a afetar alvos Grandes."
+        },
+        "verdadeiro":{
+            "custo": 9,
+            "desc": "passa a afetar alvos Enormes."
+        },
+        "imgSrc": "https://i.imgur.com/6lmDaSW.png"
+    },
+    {
+        "nome": "Tela de Ruído",
+        "elemento": "** Energia **",
+        "circulo": "2°",
+        "execucao": "padrão",
+        "alcance": "pessoal",
+        "alvo": "você",
+        "duracao": "cena",
+        "resistencia": "Nenhuma",
+        "descricao": "Este ritual cria uma película de energia que recobre seu corpo e absorve energia cinética. Você recebe 30 PV temporários, mas apenas contra dano balístico, de corte, de impacto ou de perfuração. Alternativamente, você pode conjurar este ritual como uma reação quando sofrer dano, recebendo resistência 15 apenas contra esse dano.",
+          "discente":{
+            "custo": 3,
+            "desc": " aumenta os PV temporário para 60 e a resistência para 30."
+        },
+        "verdadeiro":{
+            "custo": 7,
+            "desc": "muda o alcance para curto e o alvo para 1 ser ou objeto Enorme ou menor. Em vez do normal, cria uma esfera imóvel e tremeluzente com o tamanho do alvo e centrada nele. Nenhum ser, objeto ou efeito de dano pode passar pela esfera, embora seres possam respirar normalmente dentro dela. O alvo tem direito a um teste de Reflexo para evitar ser aprisionado. Requer 4º círculo. "
+        },
+        "imgSrc": "https://i.imgur.com/6lmDaSW.png"
+    },
+    {
+        "nome": "Desacelerar Impacto",
+        "elemento": "** Morte **",
+        "circulo": "2°",
+        "execucao": "reação",
+        "alcance": "curto",
+        "alvo": "1 ser ou objetos somando até 10 espaços",
+        "duracao": "até chegar ao solo ou cena, o que vier primeiro",
+        "resistencia": "Nenhuma",
+        "descricao": "O alvo cai lentamente. A velocidade da queda é reduzida para 18m por rodada — o suficiente para não causar dano. Como conjurar este ritual é uma reação, você pode conjurá-lo rápido o bastante para salvar a si ou um aliado de quedas inesperadas. Se o alvo for um projétil — como um disparo de arma ou um objeto largado do alto de um prédio —, o ritual faz com que ele cause metade do dano normal, devido à lentidão. Este ritual só funciona em alvos em queda livre ou similar; não pode frear um golpe de faca ou o mergulho rasante de um atacante voador.",
+          "discente":{
+            "custo": 3,
+            "desc": "aumenta o total de alvos para seres ou objetos somando até 100 espaços."
+        },
+        "verdadeiro":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "imgSrc": "https://i.imgur.com/6lmDaSW.png"
+    },
+    {
+        "nome": "Eco Espiral",
+        "elemento": "** Morte **",
+        "circulo": "2°",
+        "execucao": "padrão",
+        "alcance": "curto",
+        "alvo": "1 ser",
+        "duracao": "2 rodadas",
+        "resistencia": "Fortitude reduz à metade",
+        "descricao": "Você manifesta em suas mãos uma pequena cópia do alvo feita de cinzas. No início do próximo turno após conjurar este ritual, você precisa gastar uma ação padrão para se concentrar nele; caso contrário, ele se dissipa sem efeito. No início do segundo turno, você precisa gastar uma ação padrão para descarregá-lo. Se fizer isso, a cópia explode e o alvo sofre dano de Morte igual a quantidade de dano que sofreu na rodada em que você se concentrou (Fortitude reduz à metade). Se não fizer, o ritual se dissipa sem efeito.",
+          "discente":{
+            "custo": 3,
+            "desc": " muda o alvo para “até 5 seres”."
+        },
+        "verdadeiro":{
+            "custo": 7,
+            "desc": "muda a duração para “até 3 rodadas”, permitindo que você se concentre nas duas primeiras e descarregue na terceira. Requer 4º círculo e afinidade."
+        },
+        "imgSrc": "https://i.imgur.com/ZKyVcAd.png"
+    },
+    {
+        "nome": "Paradoxo",
+        "elemento": "** Morte **",
+        "circulo": "2°",
+        "execucao": "padrão",
+        "alcance": "médio",
+        "alvo": "esfera com 6m de raio",
+        "duracao": "instantânea",
+        "resistencia": "Fortitude reduz à metade",
+        "descricao": "O ritual cria uma poderosa implosão de distorção temporal contraditória, causando 6d6 pontos de dano de Morte em todos os seres na área",
+        "discente":{
+            "custo": 3,
+            "desc": "muda a área para “efeito: esfera com tamanho Médio” e a duração para cena. Em vez do normal, cria uma esfera de emanações espirais sibilantes com 1,5m de diâmetro que causa 4d6 pontos de dano de Morte a qualquer ser no mesmo espaço. Você pode gastar uma ação de movimento para fazer a esfera voar 9m em qualquer direção. Um ser só pode sofrer dano da esfera uma vez por rodada. "
+        },
+        "verdadeiro":{
+            "custo": 7,
+            "desc": "muda o dano para 13d6. Seres reduzidos a 0 PV pelo dano do Paradoxo devem fazer um teste de Fortitude. Se falharam, são reduzidas a cinzas (morrem imediatamente). Requer 4º círculo."
+        },
+        "imgSrc": "https://i.imgur.com/ZKyVcAd.png"
+    },
+    {
+        "nome": "Miasma Entrópico",
+        "elemento": "** Morte **",
+        "circulo": "2°",
+        "execucao": "padrão",
+        "alcance": "médio",
+        "alvo": "nuvem com 6m de raio",
+        "duracao": "instantânea",
+        "resistencia": "Fortitude parcial (veja texto)",
+        "descricao": "Cria uma explosão de emanações tóxicas. Seres na área sofrem 4d8 pontos de dano químico e ficam enjoados por 1 rodada. Se passarem na resistência, sofrem metade do dano e não ficam enjoados.",
+        "discente":{
+            "custo": 3,
+            "desc": "muda o dano para 6d8 de Morte."
+        },
+        "verdadeiro":{
+            "custo": 7,
+            "desc": "muda a duração para 3 rodadas. Um ser que inicie seu turno dentro da área sofre o dano novamente. Requer 3º círculo."
+        },
+        "imgSrc": "https://i.imgur.com/ZKyVcAd.png"
+    },
+    {
+        "nome": "Velocidade Mortal",
+        "elemento": "** Morte **",
+        "circulo": "2°",
+        "execucao": "padrão",
+        "alcance": "curto",
+        "alvo": "1 ser",
+        "duracao": "sustentada",
+        "resistencia": "Nenhuma",
+        "descricao": "Você distorce a passagem do tempo ao redor do alvo, tornando-o extremamente veloz. O alvo pode realizar uma ação de movimento adicional por turno. Esta ação não pode ser usada para conjurar rituais.",
+        "discente":{
+            "custo": 3,
+            "desc": "em vez de uma ação de movimento, o alvo recebe uma ação padrão adicional por turno."
+        },
+        "verdadeiro":{
+            "custo": 7,
+            "desc": "muda o alvo para “alvos escolhidos”. Requer 4º círculo e afinidade."
+        },
+        "imgSrc": "https://i.imgur.com/afcPgOc.png"
+    },
+    {
+        "nome": "Aprimorar Físico",
+        "elemento": "** Sangue **",
+        "circulo": "2°",
+        "execucao": "padrão",
+        "alcance": "toque",
+        "alvo": "1 ser",
+        "duracao": "cena",
+        "resistencia": "Nenhuma",
+        "descricao": "O alvo tem seus músculos tonificados e seus ligamentos reforçados, recebendo +1 em Agilidade ou Força, à escolha dele.",
+        "discente":{
+            "custo": 3,
+            "desc": "muda o bônus para +2. Requer 3º círculo."
+        },
+        "verdadeiro":{
+            "custo": 7,
+            "desc": "muda o bônus para +3. Requer 4º círculo e afinidade."
+        },
+        "imgSrc": "https://i.imgur.com/afcPgOc.png"
+    },
+    {
+        "nome": "Descarnar",
+        "elemento": "** Sangue **",
+        "circulo": "2°",
+        "execucao": "padrão",
+        "alcance": "toque",
+        "alvo": "1 ser",
+        "duracao": "instantânea",
+        "resistencia": "Fortitude parcial",
+        "descricao": "Este ritual cruel faz com que lacerações se manifestem na pele e órgãos do alvo, que sofre 6d8 pontos de dano (metade corte, metade Sangue) e fica com uma hemorragia severa. No início de cada turno dele, o alvo deve fazer um teste de Fortitude. Se falhar, sofre 2d8 pontos de dano de Sangue. Se passar nesse teste dois turnos seguidos, a hemorragia é estancada. Alvos que passem no teste de resistência inicial sofrem metade do dano e não ficam com hemorragia.",
+        "discente":{
+            "custo": 3,
+            "desc": "muda o dano direto para 10d8 e o dano da hemorragia para 4d8. Requer 3º círculo."
+        },
+        "verdadeiro":{
+            "custo": 7,
+            "desc": "muda o alvo para você e a duração para sustentada. Enquanto o ritual durar, seus ataques corpo a corpo causam 4d8 pontos de dano de Sangue adicional e deixam o alvo com hemorragia automaticamente (como no efeito básico do ritual). O alvo ainda tem direito a um teste de Fortitude no início de seus turnos. Requer 3º círculo e afinidade."
+        },
+        "imgSrc": "https://i.imgur.com/GQAVpwq.png"
+    },
+    {
+        "nome": "Flagelo de Sangue",
+        "elemento": "** Sangue **",
+        "circulo": "2°",
+        "execucao": "padrão",
+        "alcance": "toque",
+        "alvo": "1 pessoa",
+        "duracao": "cena",
+        "resistencia": "Fortitude parcial",
+        "descricao": "Você toca uma pessoa, gravando uma marca escarificada no corpo dela enquanto profere uma ordem, como “não ataque a mim ou meus aliados”, “siga-me” ou “não saia desta sala”. A cada rodada que o alvo desobedecer a ordem, a marca inflige uma dor excruciante, que causa 10d6 pontos de dano de Sangue e deixa o alvo enjoado pela rodada (Fortitude reduz o dano à metade e evita a condição). Se o alvo passar nesse teste dois turnos seguidos a marca desaparece.",
+        "discente":{
+            "custo": 3,
+            "desc": "muda o alvo para “1 ser (exceto criaturas de Sangue)”. Requer 3º círculo. "
+        },
+        "verdadeiro":{
+            "custo": 7,
+            "desc": "como Discente, e muda a duração para “1 dia”. Requer 4º círculo e afinidade."
+        },
+        "imgSrc": "https://i.imgur.com/GQAVpwq.png"
+    },
+    {
+        "nome":       "Hemofagia",
+        "elemento":   "** Sangue **",
+        "circulo":    "2°",
+        "execucao":   "padrão",
+        "alcance":    "toque",
+        "alvo":       "1 ser",
+        "duracao":    "instantânea",
+        "resistencia":"Fortitude reduz à metade",
+        "descricao":  "Você arranca o sangue do corpo do alvo através de pele dele, causando 6d6 pontos de dano de Sangue. Você então absorve esse sangue, recuperando pontos de vida iguais à metade do dano causado.",
+        "discente":{
+            "custo": 3,
+            "desc": " muda a resistência para “nenhuma”. Como parte da execução do ritual, você faz um ataque corpo a corpo contra o alvo. Se acertar, causa o dano do ataque e do ritual, recuperando PV em quantidade igual à metade do dano total causado. "
+        },
+        "verdadeiro":{
+            "custo": 7,
+            "desc": "muda o alcance para “pessoal”, o alvo para “você” e a duração para “cena”. Em vez do normal, a cada rodada você pode gastar uma ação padrão para tocar 1 ser e causar 4d6 pontos de dano de Sangue. Você recupera PV iguais à metade do dano causado. Requer 4º círculo."
+        },
+        "imgSrc": "https://i.imgur.com/uKfEIwL.png"
+    },
+    {
+        "nome":       "Transfusão Vital",
+        "elemento":   "** Sangue **",
+        "circulo":    "2°",
+        "execucao":   "padrão",
+        "alcance":    "toque",
+        "alvo":       "1 ser",
+        "duracao":    "instantânea",
+        "resistencia":"Nenhuma",
+        "descricao":  "Você toca no alvo e transfere sua própria energia vital para ele, podendo sofrer até 30 pontos de dano de Sangue para que o alvo recupere a mesma quantidade em PV. Você não pode ficar com menos de 1 PV por causa desse ritual.",
+        "discente":{
+            "custo": 3,
+            "desc": "Você pode transferir até 50 pontos de vida. Requer 3º círculo."
+        },
+        "verdadeiro":{
+            "custo": 7,
+            "desc": "Você pode transferir até 100 pontos de vida. Requer 4º círculo."
+        },
+        "imgSrc": "https://i.imgur.com/oeJi3NP.png"
+    },
+    {
+        "nome":       "Proteção contra Rituais",
+        "elemento":   "** Medo **",
+        "circulo":    "2°",
+        "execucao":   "padrão",
+        "alcance":    "toque",
+        "alvo":       "1 ser",
+        "duracao":    "cena",
+        "resistencia":"Nenhuma",
+        "descricao":  "Você canaliza uma aura de Medo puro, que protege o alvo contra efeitos paranormais. O alvo recebe resistência a dano paranormal 5 e +5 em testes de resistência contra rituais e habilidades de criaturas paranormais.",
+        "discente":{
+            "custo": 3,
+            "desc": "muda o alvo para “até 5 seres tocados”. Requer 3º círculo."
+        },
+        "verdadeiro":{
+            "custo": 6,
+            "desc": "muda o alvo para “até 5 seres tocados”, a resistência a dano para 10 e o bônus em testes de resistência para +10. Requer 4º círculo."
+        },
+        "imgSrc": "https://i.imgur.com/oeJi3NP.png"
+    },
+    {
+        "nome":       "Rejeitar Névoa",
+        "elemento":   "** Medo **",
+        "circulo":    "2°",
+        "execucao":   "padrão",
+        "alcance":    "curto",
+        "alvo":       "nuvem de 6m de raio",
+        "duracao":    "cena",
+        "resistencia":"Nenhuma",
+        "descricao":  "Você manifesta um leve redemoinho de névoa que se movimenta suavemente dentro da área. Rituais conjurados dentro da área têm seu custo aumentado em +2 PE por círculo e sua execução aumentada em um passo (de livre para movimento, de movimento para padrão, de padrão para completa, de completa para duas rodadas). Rejeitar a Névoa anula os efeitos de Cinerária, a menos que o conjurador de Cinerária use uma ação completa por rodada para manter o ritual ativo, neutralizando o efeito dos dois rituais.",
+        "discente":{
+            "custo": 2,
+            "desc": "além do normal, a DT de testes de resistência contra rituais realizados na área diminui em –5. "
+        },
+        "verdadeiro":{
+            "custo": 5,
+            "desc": "como discente, e o dano causado dentro da névoa por rituais é sempre mínimo."
+        },
+        "imgSrc": "https://i.imgur.com/oeJi3NP.png"
+    },
+
+    {
+        "nome":       "Alterar Memória",
+        "elemento":   "** Conhecimento **",
+        "circulo":    "3°",
+        "execucao":   "padrão",
+        "alcance":    "toque",
+        "alvo":       "1 pessoa",
+        "duracao":    "instantânea",
+        "resistencia":"Vontade anula",
+        "descricao":  "Você invade a mente do alvo e altera ou apaga suas memórias de até uma hora atrás. Se escolher alterar as memórias, você pode mudar detalhes de eventos recentes, como a identidade de alguém encontrado ou o endereço de um lugar visitado, mas não reescrever completamente esses eventos. O alvo recupera suas memórias após 1d4 dias.",
+        "discente":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "verdadeiro":{
+            "custo": 4,
+            "desc": "você pode alterar ou apagar memórias de até 24 horas atrás. Requer 4º círculo."
+        },
+        "imgSrc": "https://i.imgur.com/9SYZmyi.png"
+    },
+    {
+        "nome":       "Contato Paranormal",
+        "elemento":   "** Conhecimento **",
+        "circulo":    "3°",
+        "execucao":   "completa",
+        "alcance":    "pessoal",
+        "alvo":       "você",
+        "duracao":    "1 dia",
+        "resistencia":"Nenhuma",
+        "descricao":  "Você barganha com a entidade de Conhecimento para que o auxilie durante o dia, em troca de se alimentar de sua Sanidade. Quando o ritual é conjurado, você recebe seis d6. Sempre que fizer um teste de perícia, você pode gastar um desses d6, rolá-lo e adicionar o resultado no teste. No entanto, essa ajuda tem um preço: sempre que rolar um 6 no dado, a entidade toma 2 pontos de Sanidade de você. Se você ficar sem dados ou chegar a Sanidade 0, o ritual acaba",
+        "discente":{
+            "custo": 4,
+            "desc": "muda os dados de auxílio para d8. Sempre que rolar um 8 num desses dados, a entidade toma 3 pontos de sua Sanidade. Requer 4º círculo."
+        },
+        "verdadeiro":{
+            "custo": 9,
+            "desc": "muda os dados de auxílio para d12. Sempre que rolar um 12 num desses dados, a entidade toma 5 pontos de sua Sanidade. Requer 4º círculo e afinidade."
+        },
+        "imgSrc": "https://i.imgur.com/9SYZmyi.png"
+    },
+    {
+        "nome":       "Mergulho Mental",
+        "elemento":   "** Conhecimento **",
+        "circulo":    "3°",
+        "execucao":   "padrão",
+        "alcance":    "toque",
+        "alvo":       "1 pessoa",
+        "duracao":    "sustentada",
+        "resistencia":"Vontade parcial (veja o texto)",
+        "descricao":  "Você mergulha nos pensamentos do alvo, para descobrir informações sobre ele. Durante o mergulho, você fica desprevenido. No início de cada turno seu que estiver sustentando o efeito e tocando o alvo, ele deve fazer um teste de Vontade. Se falhar, deve responder uma pergunta sua que possa ser respondida com “sim” ou “não”, sendo incapaz de mentir. O que você descobre depende das suas perguntas e do mestre: talvez você não descubra tudo que há para saber, mas ganhe pistas para continuar a investigação.",
+        "discente":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "verdadeiro":{
+            "custo": 4,
+            "desc": "muda a execução para 1 dia, o alcance para ilimitado e adiciona como componente ritualístico uma cuba de ouro cheia d’água e uma máscara (acessório de categoria II). Você pode realizar o mergulho mental à distância, submergindo seu rosto mascarado na água enquanto mentaliza o alvo. Para que esse ritual funcione, você precisa ter alguma informação sobre o alvo, como nome completo, e um objeto pessoal ou fotografia. Requer 4º círculo. "
+        },
+        "imgSrc": "https://i.imgur.com/9SYZmyi.png"
+    },
+    {
+        "nome":       "Vidência",
+        "elemento":   "** Conhecimento **",
+        "circulo":    "3°",
+        "execucao":   "completa",
+        "alcance":    "ilimitado",
+        "alvo":       "1 ser",
+        "duracao":    "5 rodadas",
+        "resistencia":"Vontade anula",
+        "descricao":  "Através de uma superfície reflexiva, como um espelho, uma bacia de água ou mesmo uma TV desligada, você pode ver e ouvir um ser escolhido e seus arredores (cerca de 6m em qualquer direção). O alvo pode estar a qualquer distância, mas tem direito a um teste de resistência no início de cada um de seus turnos para impedir a Vidência naquele turno. Se o alvo passar em dois testes seguidos, o ritual é encerrado e o alvo fica imune a ele por uma semana. Para esse ritual funcionar, você precisa ter alguma informação sobre o alvo, como seu nome ou uma foto. Dependendo do conhecimento que você tiver dele, o alvo recebe bônus ou penalidades em seu teste de resistência. I Você sabe o mínimo sobre o alvo: +10. I Você possui algumas informações sobre o alvo (idade, profissão...) ou já o viu pessoalmente: +5. I Você conhece bem o alvo: –0. I Você tem um pertence pessoal ou roupa do alvo: –5. I Você tem uma parte do corpo do alvo (unhas, cabelos...): –10.",
+        "discente":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "verdadeiro":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "imgSrc": "https://i.imgur.com/9SYZmyi.png"
+    },
+    {
+        "nome":       "Convocação Instantânea",
+        "elemento":   "** Energia **",
+        "circulo":    "3°",
+        "execucao":   "padrão",
+        "alcance":    "ilimitado",
+        "alvo":       "1 objeto de até 2 espaços",
+        "duracao":    "instantânea",
+        "resistencia":"Vontade anula",
+        "descricao":  "Você invoca um objeto de qualquer lugar para sua mão. O item deve ter sido previamente preparado com o símbolo do ritual e pode ocupar no máximo 2 espaços. Se o objeto estiver sendo empunhado por outra pessoa, ela pode fazer um teste de Vontade para negar o efeito, mas você saberá onde o objeto está e quem o está carregando (ou sua aparência, caso não conheça a pessoa). Por até 1h depois da convocação, você pode gastar uma ação de movimento para enviar o objeto de volta para o local em que ele estava antes. ",
+        "discente":{
+            "custo": 4,
+            "desc": "muda o alvo para um objeto de até 10 espaços."
+        },
+        "verdadeiro":{
+            "custo": 9,
+            "desc": "muda o alvo para “1 recipiente Médio (como uma mala ou caixote), com itens que somem até 10 espaços” e a duração para “permanente”. Em vez do normal, você encanta o recipiente para mantê-lo escondido no Outro Lado. Você pode convocar o recipiente para um espaço livre adjacente, ou de volta para o esconderijo paranormal, como uma ação padrão. Para isso, você deve ter em mãos uma miniatura do objeto, que funciona como um utensílio de categoria II. Quando conjura esta versão do ritual, você perde 1 PE permanentemente."
+        },
+        "imgSrc": "https://i.imgur.com/9SYZmyi.png"
+    },
+    {
+        "nome":       "Salto Fantasma",
+        "elemento":   "** Energia **",
+        "circulo":    "3°",
+        "execucao":   "padrão",
+        "alcance":    "médio",
+        "alvo":       "você",
+        "duracao":    "instantânea",
+        "resistencia":"Nenhuma",
+        "descricao":  "Seu corpo se transforma momentaneamente em Energia pura e viaja até outro ponto. Você não precisa perceber nem ter linha de efeito ao seu destino, podendo simplesmente imaginá-lo, desde que já tenha observado o local de alguma forma (pessoalmente, por fotografia, por vídeo...). Por exemplo, pode se transportar 3m adiante para ultrapassar uma porta fechada. Uma vez transportado, você não pode agir pelo resto do seu turno. Este ritual não permite que você apareça dentro de um corpo sólido; se o ponto de chegada não tem espaço livre, você ressurge na área vazia mais próxima.",
+        "discente":{
+            "custo": 2,
+            "desc": "muda a execução para reação. Em vez do normal, você salta para um espaço adjacente (1,5m), recebendo +10 na Defesa e em testes de Reflexos contra um ataque ou efeito que esteja prestes a atingi-lo"
+        },
+        "verdadeiro":{
+            "custo": 4,
+            "desc": "muda o alcance para longo e o alvo para você e até dois outros seres voluntários que você esteja tocando."
+        },
+        "imgSrc": "https://i.imgur.com/oefn8VK.png"
+    },
+    {
+        "nome":       "Transfigurar Água",
+        "elemento":   "** Energia **",
+        "circulo":    "3°",
+        "execucao":   "padrão",
+        "alcance":    "longo",
+        "alvo":       "esfera com 30m de raio",
+        "duracao":    "cena",
+        "resistencia":"veja texto",
+        "descricao":  "Você canaliza Energia sobre um corpo de água, para que ele adquira movimentos e comportamentos paranormais e caóticos. Ao conjurar o ritual, escolha um dos seguintes efeitos. Congelar: toda a água mundana na área é congelada. Seres nadando na área ficam imóveis; escapar exige gastar uma ação padrão e passar num teste de Atletismo (DT igual a do ritual). Derreter: gelo mundano na área vira água e o ritual termina. A critério do mestre, isso pode criar terreno difícil. Enchente: eleva o nível da água mundana na área em até 4,5m. A sua escolha, muda área para “alvo: uma embarcação”. O alvo recebe +6m em seu deslocamento pela duração do efeito. Evaporar: toda a água e gelo mundano na área evaporam instantaneamente e o ritual termina. Qualquer ser vivo na área sofre 5d8 de dano de Energia (Fortitude reduz à metade). Criaturas de Morte sofrem o dobro desse dano. Partir: diminui o nível de toda água mundana na área em até 4,5m. Em um corpo d’água raso, isso abre um caminho seco, que pode ser atravessado a pé. Em um corpo d’água profundo, cria um redemoinho que pode prender barcos (um teste de Pilotagem com DT igual à do ritual permite ao piloto livrar a embarcação)",
+        "discente":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "verdadeiro":{
+            "custo": 5,
+            "desc": "aumenta o deslocamento de enchente para +12m e o dano de evaporar para 10d8."
+        },
+        "imgSrc": "https://i.imgur.com/oefn8VK.png"
+    },
+    {
+        "nome":       "Transfigurar Terra",
+        "elemento":   "** Energia **",
+        "circulo":    "3°",
+        "execucao":   "padrão",
+        "alcance":    "longo",
+        "alvo":       "9 cubos com 1,5m de lado",
+        "duracao":    "instantânea",
+        "resistencia":"veja texto",
+        "descricao":  "Você imbui terra, pedra, lama, argila ou areia na área com Energia, gerando efeitos sobrenaturais e caóticos. Ao conjurar o ritual, escolha um dos seguintes efeitos. Amolecer: se afetar o teto, uma coluna ou suporte, provoca um desabamento que causa 10d6 pontos de dano de impacto aos seres na área (Reflexos reduz à metade). Se afetar um piso de terra ou pedra, cria terreno difícil de areia ou argila, respectivamente. Modelar: pode usar pedra ou argila para criar um ou mais objetos simples de tamanho Enorme ou menor (sem mecanismos ou partes móveis). Por exemplo, pode transformar um tijolo em um martelo, criar uma passagem onde antes havia apenas uma parede ou levantar uma ou mais paredes que oferecem cobertura total (RD 8 e 50 PV para cada 3m). Solidificar: transforma lama ou areia em terra ou pedra. Seres com os pés na superfície ficam agarrados. Eles podem se soltar com uma ação padrão e um teste de Atletismo (DT igual a do ritual).",
+        "discente":{
+            "custo": 3,
+            "desc": "muda a área para 15 cubos com 1,5m de lado."
+        },
+        "verdadeiro":{
+            "custo": 7,
+            "desc": "também afeta todos os tipos de minerais e metais. Requer 4º círculo."
+        },
+        "imgSrc": "https://i.imgur.com/oefn8VK.png"
+    },
+    {
+        "nome":       "Âncora Temporal",
+        "elemento":   "** Morte **",
+        "circulo":    "3°",
+        "execucao":   "padrão",
+        "alcance":    "curto",
+        "alvo":       "1 ser",
+        "duracao":    "cena",
+        "resistencia":"Vontade parcial",
+        "descricao":  "Uma aura espiralada surge sobre o alvo. No início de cada turno dele, ele deve fazer um teste de Vontade. Se falhar, não poderá se deslocar naquele turno (ele ainda pode agir, só não pode se deslocar). Se o alvo passar nesse teste dois turnos seguidos o efeito termina.",
+        "discente":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "verdadeiro":{
+            "custo": 4,
+            "desc": "muda o alvo para “seres à sua escolha”. Requer 4º círculo."
+        },
+        "imgSrc": "https://i.imgur.com/oefn8VK.png"
+    },
+    {
+        "nome":       "Poeira da Podridão",
+        "elemento":   "** Morte **",
+        "circulo":    "3°",
+        "execucao":   "padrão",
+        "alcance":    "médio",
+        "alvo":       "nuvem com 6m de raio",
+        "duracao":    "sustentada",
+        "resistencia":"Fortitude (veja texto)",
+        "descricao":  "Você manifesta uma nuvem de poeira que apodrece os seres na área. Ao conjurar o ritual, e no início de cada um de seus turnos, seres e objetos na área sofrem 4d8 pontos de dano de Morte (Fortitude reduz à metade). Alvos que falharem no teste também não podem recuperar PV de nenhuma forma por uma rodada.",
+        "discente":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "verdadeiro":{
+            "custo": 4,
+            "desc": "muda o dano para 4d8+16."
+        },
+        "imgSrc": "https://i.imgur.com/oefn8VK.png"
+    },
+    {
+        "nome":       "Tentáculos de Lodo",
+        "elemento":   "** Morte **",
+        "circulo":    "3°",
+        "execucao":   "padrão",
+        "alcance":    "médio",
+        "alvo":       "círculo com 6m de raio",
+        "duracao":    "cena",
+        "resistencia":"Nenhuma",
+        "descricao":  "Uma fenda sombria se abre no chão, de onde surgem tentáculos feitos de lodo da Morte. Ao conjurar o ritual e no início de cada um de seus turnos, você faz um teste da manobra agarrar (usando Ocultismo em vez de Luta) contra cada alvo na área. Se você vencer, o ser é agarrado; se já estava agarrado, é esmagado, sofrendo 4d6 pontos de dano (metade impacto, metade Morte). A área do ritual conta como terreno difícil. Os tentáculos são imunes a dano.",
+        "discente":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "verdadeiro":{
+            "custo": 5,
+            "desc": "aumenta o raio da área para 9m e aumenta o dano dos tentáculos para 6d6."
+        },
+        "imgSrc": "https://i.imgur.com/oefn8VK.png"
+    },
+    {
+        "nome":       "Tentáculos de Lodo",
+        "elemento":   "** Morte **",
+        "circulo":    "3°",
+        "execucao":   "padrão",
+        "alcance":    "curto",
+        "alvo":       "1 pessoa",
+        "duracao":    "Vontade parcial",
+        "resistencia":"Nenhuma",
+        "descricao":  "Você zera completamente a entropia do alvo em relação ao ambiente, deixando-o paralisado. Se passar na resistência, em vez disso fica lento. No início de cada um de seus turnos, o alvo pode gastar uma ação completa para fazer um novo teste de Vontade. Se passar, encerra o efeito.",
+        "discente":{
+            "custo": 4,
+            "desc": "muda o alvo para “1 ser”. Requer 4º círculo."
+        },
+        "verdadeiro":{
+            "custo": 11,
+            "desc": "muda o alvo para “seres escolhidos”. Requer 4º círculo e afinidade."
+        },
+        "imgSrc": "https://i.imgur.com/oefn8VK.png"
+    },
+    {
+        "nome":         "Ferver Sangue",
+        "elemento":     "** Sangue **",
+        "circulo":      "3°",
+        "execucao":     "padrão",
+        "alcance":      "curto",
+        "alvo":         "1 ser",
+        "duracao":      "sustentada",
+        "resistencia":  "Fortitude parcia",
+        "descricao":    "O sangue do alvo aquece até entrar em ebulição. Quando o ritual é conjurado, e no início de cada turno do alvo, ele deve fazer um teste de Fortitude. Se falhar, sofre 4d8 pontos de dano de Sangue e fica fraco; se passar, sofre metade do dano e não fica fraco nesta rodada. Se o alvo passar nesse teste dois turnos seguidos o efeito termina.",
+        "discente":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "verdadeiro":{
+            "custo": 4,
+            "desc": "muda o alvo para “seres escolhidos”. Requer 4º círculo e afinidade."
+        },
+        "imgSrc": "https://i.imgur.com/oefn8VK.png"
+    },
+    {
+        "nome":         "Forma Monstruosa",
+        "elemento":     "** Sangue **",
+        "circulo":      "3°",
+        "execucao":     "padrão",
+        "alcance":      "pessoal",
+        "alvo":         "você",
+        "duracao":      "cena",
+        "resistencia":  "Nenhuma",
+        "descricao":    "Seu corpo se transforma, assumindo uma forma que combina suas características com as de uma criatura de Sangue; suas roupas e proteção se mesclam à sua carne, transformando-se em uma couraça, e quaisquer objetos em suas mãos se fundem aos seus braços, transformando-se em garras pontiagudas. Seu equipamento fica inacessível, mas seus bônus se mantém. Seu tamanho muda para Grande e você recebe +5 em testes de ataque e rolagens de dano corpo a corpo e 30 PV temporários. Enquanto estiver transformado, sua mente é tomada por fúria selvagem; você não pode falar nem conjurar rituais e a cada rodada deve atacar o ser mais próximo possível. Se não houver um ser que possa atacar, deve se deslocar em direção ao ser mais próximo da melhor forma possível. Se o ser mais próximo for um aliado, você pode fazer um teste de Vontade (DT do ritual). Se passar, neste turno você pode escolher qual ser atacar.",
+        "discente":{
+            "custo": 3,
+            "desc": "além do normal, você recebe imunidade a atordoamento, fadiga, sangramento, sono e veneno. Requer 3º círculo."
+        },
+        "verdadeiro":{
+            "custo": 9,
+            "desc": " muda os bônus em testes de ataque e rolagens de dano para +10 e os PV temporários para 50. Requer 4º círculo e afinidade."
+        },
+        "imgSrc": "https://i.imgur.com/oefn8VK.png"
+    },
+    {
+        "nome":         "Purgatório",
+        "elemento":     "** Sangue **",
+        "circulo":      "3°",
+        "execucao":     "padrão",
+        "alcance":      "curto",
+        "alvo":         "área de 6m de raio",
+        "duracao":      "sustentada",
+        "resistencia":  "Fortitude parcial",
+        "descricao":    "Você faz brotar uma poça de sangue pegajoso na área afetada. Inimigos na área se tornam vulneráveis a dano balístico, de corte, de impacto e de perfuração. Um alvo que tente sair da área é acometido de uma dor terrível; sofre 6d6 pontos de dano de Sangue e deve fazer um teste de Fortitude. Se passar, consegue sair. Se falhar, a dor faz com que não consiga se mover e perca a ação de movimento.",
+        "discente":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "verdadeiro":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "imgSrc": "https://i.imgur.com/oefn8VK.png"
+    },
+    {
+        "nome":         "Purgatório",
+        "elemento":     "** Sangue **",
+        "circulo":      "3°",
+        "execucao":     "padrão",
+        "alcance":      "médio",
+        "alvo":         "1 enxame Grande (quadrado de 3m)",
+        "duracao":      "sustentada",
+        "resistencia":  "Reflexos reduz à metade",
+        "descricao":    "Você vomita um enxame de pequenas criaturas de Sangue, que surge em um ponto adjacente a sua escolha. O enxame pode passar pelo espaço de outros seres e não impede que outros seres entrem no espaço dele. No final de cada um de seus turnos, o enxame causa 5d12 pontos de dano de sangue a qualquer ser no espaço dele (Reflexos reduz à metade). Você pode gastar uma ação de movimento para mover o enxame com deslocamento de 12m",
+        "discente":{
+            "custo": 2,
+            "desc": "além do normal, um alvo que falhe no teste de Reflexos fica agarrada (o enxame escala e cobre o corpo dele). O alvo pode gastar uma ação padrão e fazer um teste de Acrobacia ou Atletismo para escapar. Se você mover o enxame, o alvo fica livre."
+        },
+        "verdadeiro":{
+            "custo": 5,
+            "desc": "o enxame vira Enorme (cubo de 6m de lado) e ganha deslocamento de voo 18m."
+        },
+        "imgSrc": "https://i.imgur.com/oefn8VK.png"
+    },
+    {
+        "nome":         "Dissipar Ritual",
+        "elemento":     "** Medo **",
+        "circulo":      "3°",
+        "execucao":     "padrão",
+        "alcance":      "médio",
+        "alvo":         "1 ser ou objeto, ou esfera com 3m de raio",
+        "duracao":      "instantânea",
+        "resistencia":  "Reflexos reduz à metade",
+        "descricao":    "Você dissipa rituais ativos, como se a duração deles tivesse acabado. Efeitos de rituais instantâneos não podem ser dissipados (não se pode dissipar uma área de Paradoxo depois que já causou dano...). Faça um teste de Ocultismo; você anula quaisquer rituais ativos no alvo ou na área com DT igual ou menor que o resultado do teste. Você pode conjurar esse ritual em um item amaldiçoado para que se torne um item mundano (perdendo seus poderes) por um dia. Se o item estiver em posse de alguém, seu usuário pode fazer um teste de Vontade para negar o efeito.",
+        "discente":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "verdadeiro":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "imgSrc": "https://i.imgur.com/oefn8VK.png"
+    },
+
+    {
+        "nome":         "Controle Mental",
+        "elemento":     "** Conhecimento **",
+        "circulo":      "4°",
+        "execucao":     "padrão",
+        "alcance":      "médio",
+        "alvo":         "1 pessoa ou animal",
+        "duracao":      "sustentada",
+        "resistencia":  "Vontade parcial",
+        "descricao":    "Você domina a mente do alvo, que obedece todos os seus comandos, exceto ordens suicidas. Um alvo tem direito a um teste de Vontade no final de cada um de seus turnos para se livrar do efeito. Alvos que passarem no teste ficam pasmos por 1 rodada.",
+        "discente":{
+            "custo": 5,
+            "desc": "muda o alvo para até cinco pessoas ou animais."
+        },
+        "verdadeiro":{
+            "custo": 10,
+            "desc": "muda o alvo para até dez pessoas ou animais. Requer afinidade com Conhecimento."
+        },
+        "imgSrc": "https://i.imgur.com/oefn8VK.png"
+    },
+    {
+        "nome":         "Inexistir",
+        "elemento":     "** Conhecimento **",
+        "circulo":      "4°",
+        "execucao":     "padrão",
+        "alcance":      "toque",
+        "alvo":         "1 ser",
+        "duracao":      "instantânea",
+        "resistencia":  "Vontade parcial",
+        "descricao":    "Este é um ritual extremamente cruel, que já condenou grandes agentes da Ordem ao oblívio. Você toca o alvo com a intenção de apagá-lo completamente da existência, a mente e o corpo do alvo são reescritos e desmantelados da existência. O alvo começa a levitar a poucos centímetros do chão e textos narrando todos os momentos de sua vida surgem e brilham por cima de sua pele, até que a existência dele começa a ser destruída de dentro, causando 10d12+10 pontos de dano de Conhecimento. Se o alvo passar no teste de resistência, em vez disso sofre 2d12 pontos de dano e fica debilitado por uma rodada. Independentemente do resultado do teste de resistência, se os PV do alvo forem reduzidos a 0 ou menos, ele será completamente apagado, não restando absolutamente nenhum traço de sua existência.",
+        "discente":{
+            "custo": 5,
+            "desc": "muda o dano para 15d12+15 e o dano resistido para 3d12."
+        },
+        "verdadeiro":{
+            "custo": 10,
+            "desc": " muda o dano para 20d12+20 e o dano resistido para 4d12. Requer afinidade."
+        },
+        "imgSrc": "https://i.imgur.com/Sj5JvUr.png"
+    },
+    {
+        "nome":         "Possessão",
+        "elemento":     "** Conhecimento **",
+        "circulo":      "4°",
+        "execucao":     "padrão",
+        "alcance":      "longo",
+        "alvo":         "1 pessoa viva ou morta",
+        "duracao":      "1 dia",
+        "resistencia":  "Vontade anula",
+        "descricao":    "Você projeta sua consciência no corpo de uma pessoa viva ou morta. Enquanto possuir o alvo, você assume o controle total do corpo dele (se o alvo estiver vivo, a consciência dele troca de lugar com a sua, ficando inerte dentro do seu corpo desacordado). Em termos de jogo, você continua usando a sua ficha, mas com os atributos físicos (Agilidade, Força e Vigor) e deslocamento do alvo. Se o alvo passar no teste de resistência, sabe que você tentou possuí-lo e fica imune a este ritual por um dia. Caso qualquer um dos envolvidos no ritual morra, a mente sobrevivente ficará permanentemente presa no corpo novo, a não ser que use o ritual novamente para voltar a seu corpo antigo. Retornar para o seu corpo voluntariamente é uma ação livre.",
+        "discente":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "verdadeiro":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "imgSrc": "https://i.imgur.com/Sj5JvUr.png"
+    },
+    {
+        "nome":         "Alterar Destino",
+        "elemento":     "** Energia **",
+        "circulo":      "4°",
+        "execucao":     "reação",
+        "alcance":      "pessoal",
+        "alvo":         "você",
+        "duracao":      "instantânea",
+        "resistencia":  "Nenhuma",
+        "descricao":    "Você vislumbra seu futuro próximo, analisando milhões de possibilidades e escolhendo a melhor. Você recebe +15 em um teste de resistência ou na Defesa contra um ataque.",
+        "discente":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "verdadeiro":{
+            "custo": 5,
+            "desc": "muda o alcance para “curto” e o alvo para “um aliado à sua escolha”."
+        },
+        "imgSrc": "https://i.imgur.com/Sj5JvUr.png"
+    },
+    {
+        "nome":         "Deflagração de Energia",
+        "elemento":     "** Energia **",
+        "circulo":      "4°",
+        "execucao":     "completa",
+        "alcance":      "pessoal",
+        "alvo":         "explosão de 15m de raio",
+        "duracao":      "instantânea",
+        "resistencia":  "Fortitude parcial",
+        "descricao":    "Você acumula uma quantidade imensa de Energia, então a libera em uma explosão intensa, como uma estrela em plena terra. Todos na área sofrem 3d10 x 10 pontos de dano de Energia e todos os itens tecnológicos (armas de fogo, acessórios e utensílios) param de funcionar (em termos de regras, estão quebrados). Você não é afetado pela explosão. Alvos que passem no teste de Fortitude sofrem metade do dano e seus itens voltam a funcionar após 1d4 rodadas.",
+        "discente":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "verdadeiro":{
+            "custo": 5,
+            "desc": "afeta apenas alvos a sua escolha."
+        },
+        "imgSrc": "https://i.imgur.com/Sj5JvUr.png"
+    },
+    {
+        "nome":         "Teletransporte",
+        "elemento":     "** Energia **",
+        "circulo":      "4°",
+        "execucao":     "padrão",
+        "alcance":      "toque",
+        "alvo":         "até 5 seres voluntários",
+        "duracao":      "instantânea",
+        "resistencia":  "Nenhuma",
+        "descricao":    "O ritual transforma o corpo e equipamento dos alvos em energia pura e os faz reaparecer num lugar a sua escolha a até 1.000km. Quando conjura este ritual, você precisa fazer um teste de Ocultismo, com DT definida pelo seu conhecimento sobre o destino. DT 25. Um lugar que você visita com frequência. DT 30. Um lugar que você já visitou pelo menos uma vez. DT 35. Um lugar que você nunca visitou e só conhece a partir da descrição de outra pessoa que esteve lá. Você não pode se teletransportar para um lugar que nunca visitou sem a descrição de alguém. Ou seja, não pode se transportar para “o local onde Júlia está presa” se nunca esteve lá nem falou com alguém que esteve. Se passar no teste, os alvos chegam ao lugar desejado. Se falhar, você chega em um lugar parecido, mas errado ou distante (até 1d10 x 10 km). Se você falhar por 5 ou mais, o ritual falha, mas você gasta PE normalmente e fica atordoado por 1d4 rodadas.",
+        "discente":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "verdadeiro":{
+            "custo": 5,
+            "desc": "pode se teletransportar para qualquer local na Terra."
+        },
+        "imgSrc": "https://i.imgur.com/Sj5JvUr.png"
+    },
+    {
+        "nome":         "Convocar o Algoz",
+        "elemento":     "** Morte **",
+        "circulo":      "4°",
+        "execucao":     "padrão",
+        "alcance":      "1,5m",
+        "alvo":         "1 pessoa",
+        "duracao":      "sustentada",
+        "resistencia":  "Vontade parcial, Fortitude parcial",
+        "descricao":    "Usando os medos subconscientes do alvo, você manipula a espiral da Morte para criar uma imagem daquilo que ele mais teme. Apenas a própria vítima vê o algoz com nitidez; outros seres presentes (incluindo você) enxergam apenas um vulto sombrio. O algoz surge adjacente a você. No fim de cada turno seu, ele flutua 12m em direção à vítima. Se o algoz terminar o turno em alcance curto da vítima, ela deve fazer um teste de Vontade; se falhar, ficará abalada. Se o algoz terminar o turno adjacente à vítima, ela deve fazer um teste de Fortitude. Se falhar, sofre um colapso e fica com 0 PV. Se passar, sofre 6d6 pontos de dano de Morte (este dano não pode reduzir o alvo a menos de 1 PV). O algoz persegue o alvo implacavelmente, mesmo além do alcance do ritual. Ele é incorpóreo e imune a dano e só desaparece se deixar o alvo morrendo ou se for dissipado.",
+        "discente":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "verdadeiro":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "imgSrc": "https://i.imgur.com/Sj5JvUr.png"
+    },
+    {
+        "nome":         "Distorção Temporal",
+        "elemento":     "** Morte **",
+        "circulo":      "4°",
+        "execucao":     "padrão",
+        "alcance":      "pessoal",
+        "alvo":         "veja texto",
+        "duracao":      "veja texto",
+        "resistencia":  "Nenhuma",
+        "descricao":    "Este ritual distorce o fluxo de tempo em relação a você, criando um pequeno bolsão temporal que dura 3 rodadas. Durante este tempo, você pode agir, mas não pode se deslocar do lugar nem interagir com seres e objetos. Da mesma forma, efeitos contínuos não o afetam, e quaisquer efeitos que você iniciar não afetarão a área ao seu redor. Efeitos de área com duração maior que este efeito vão agir normalmente quando o bolsão temporal acabar.",
+        "discente":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "verdadeiro":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "imgSrc": "https://i.imgur.com/Sj5JvUr.png"
+    },
+    {
+        "nome":         "Fim Inevitável",
+        "elemento":     "** Morte **",
+        "circulo":      "4°",
+        "execucao":     "completa",
+        "alcance":      "extremo",
+        "alvo":         "buraco negro com 1,5m de diâmetro",
+        "duracao":      "4 rodadas",
+        "resistencia":  "Fortitude parcial",
+        "descricao":    "Você cria um vácuo em um espaço desocupado a sua escolha. No início de cada um de seus quatro turnos seguintes, todos os seres a até 90m do vácuo, incluindo você, devem fazer um teste de Fortitude. Em caso de falha, ficam caídas e são puxadas 30m na direção do vácuo. Objetos soltos também são puxados. Seres podem gastar uma ação de movimento para se segurar em algum objeto fixo, recebendo +5 em seus testes de resistência. Seres e objetos que iniciem seu turno tocando o vácuo temporal sofrem 100 pontos de dano de Morte por rodada.",
+        "discente":{
+            "custo": 5,
+            "desc": "muda a duração para “5 rodadas” e o efeito para que você não seja afetado. Requer afinidade."
+        },
+        "verdadeiro":{
+            "custo": 10,
+            "desc": "muda a duração para “6 rodadas” e o efeito para que seres escolhidos dentro do alcance não sejam afetados. Requer afinidade."
+        },
+        "imgSrc": "https://i.imgur.com/Sj5JvUr.png"
+    },
+    {
+        "nome":         "Capturar o Coração",
+        "elemento":     "** Sangue **",
+        "circulo":      "4°",
+        "execucao":     "padrão",
+        "alcance":      "curto",
+        "alvo":         "1 pessoa",
+        "duracao":      "cena",
+        "resistencia":  "Vontade parcial",
+        "descricao":    "Você desperta uma paixão doentia e obcecada por você no alvo, que passa a querar agradá-lo a todo custo, mesmo que para isso precise ficar contra seus amigos. No início de cada turno do alvo ele deve fazer um teste de Vontade. Se falhar, age de forma a ajudá-lo na melhor de suas capacidades naquele turno. Se o alvo passar nesse teste dois turnos seguidos o efeito termina.",
+        "discente":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "verdadeiro":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "imgSrc": "https://i.imgur.com/Sj5JvUr.png"
+    },
+    {
+        "nome":         "Invólucro de Carne",
+        "elemento":     "** Sangue **",
+        "circulo":      "4°",
+        "execucao":     "padrão",
+        "alcance":      "curto",
+        "alvo":         "1 clone seu",
+        "duracao":      "cena",
+        "resistencia":  "Nenhuma",
+        "descricao":    "Você manifesta uma poça de sangue no chão, de onde emerge uma cópia sua. Ela é idêntica em aparência e capacidades (em termos de jogo, tem as mesmas estatísticas) e surge com uma cópia de todo equipamento mundano que você estiver carregando. A cópia não tem consciência (valor de Intelecto e Presença nulos) e não age sem que você dê uma ordem. Você pode gastar uma ação de movimento para dar uma ordem à cópia, como “lute contra aquele ser”. No final de cada um de seus turnos, a cópia segue a ordem da melhor maneira possível, mas ainda é incapaz de tomar decisões sozinha e acatará qualquer ordem perigosa sem hesitar, mesmo que leve à sua destruição. Alternativamente, no início de seu turno, você pode controlar ativamente a cópia. Se fizer isso, você entra num transe temporário e assume o controle da cópia como se fosse seu corpo, usando os sentidos dela. Qualquer ser que interagir com a cópia tem direito a um teste de Percepção (DT do ritual) para perceber que é uma cópia. A cópia se desfaz em uma poça de sangue coagulado se chegar a 0 PV ou sair do alcance.",
+        "discente":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "verdadeiro":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "imgSrc": "https://i.imgur.com/Sj5JvUr.png"
+    },
+    {
+        "nome":         "Vínculo de Sangue",
+        "elemento":     "** Sangue **",
+        "circulo":      "4°",
+        "execucao":     "padrão",
+        "alcance":      "curto",
+        "alvo":         "1 ser",
+        "duracao":      "cena",
+        "resistencia":  "Fortitude anula",
+        "descricao":    "Você manifesta um símbolo de Sangue no seu corpo e no corpo do alvo. Sempre que você sofrer dano, o alvo deve fazer um teste de Fortitude. Se ele falhar, você sofre apenas metade do dano e ele sofre a metade restante. Você pode conjurar o ritual com efeito inverso, fazendo com que você receba metade de todo o dano que o alvo receberia. Alvos voluntários não precisam fazer testes de resistência.",
+        "discente":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "verdadeiro":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "imgSrc": "https://i.imgur.com/0UPQ0cc.png"
+    },
+    {
+        "nome":         "Canalizar o Medo",
+        "elemento":     "** Medo **",
+        "circulo":      "4°",
+        "execucao":     "padrão",
+        "alcance":      "toque",
+        "alvo":         "1 pessoa",
+        "duracao":      "permanente até ser descarregada",
+        "resistencia":  "Nenhuma",
+        "descricao":    "Você transfere parte de seu poder para outra pessoa. Escolha um ritual de até 3º círculo que você conheça; o alvo pode conjurar este ritual em sua forma básica uma vez, sem pagar seu custo em PE (mas pode usar formas avançadas gastando seus próprios PE para isso). Até o ritual transferido ser conjurado, seus PE máximos diminuem em um valor igual ao custo dele.",
+        "discente":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "verdadeiro":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "imgSrc": "https://i.imgur.com/0UPQ0cc.png"
+    },
+    {
+        "nome":         "Conhecendo o Medo",
+        "elemento":     "** Medo **",
+        "circulo":      "4°",
+        "execucao":     "padrão",
+        "alcance":      "toque",
+        "alvo":         "1 pessoa",
+        "duracao":      "cena",
+        "resistencia":  "Vontade parcial",
+        "descricao":    "Você manifesta medo absoluto na mente do alvo. Se ele falhar no teste de resistência, a Sanidade dele é reduzida a 0 e ele fica enlouquecendo. Se ele passar, sofre 10d6 pontos de dano mental e fica apavorado por 1 rodada. Uma pessoa que fique insana pelo efeito deste ritual se transforma em uma criatura paranormal à critério do mestre.",
+        "discente":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "verdadeiro":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "imgSrc": "https://i.imgur.com/0UPQ0cc.png"
+    },
+    {
+        "nome":         "Lâmina do Medo",
+        "elemento":     "** Medo **",
+        "circulo":      "4°",
+        "execucao":     "padrão",
+        "alcance":      "toque",
+        "alvo":         "1 ser",
+        "duracao":      "instantânea",
+        "resistencia":  "Vontade parcial",
+        "descricao":    "Você manifesta uma lâmina impossível, que pode ser descrita apenas como uma “fenda na Realidade”, com a qual golpeia um alvo adjacente. Se o alvo falhar no teste de Fortitude, seus PV são reduzidos a 0 e ele fica morrendo; se passar, sofre 10d8 pontos de dano de Medo (ignora todas as resistências) e fica apavorado por uma rodada. Se uma pessoa ficar morrendo pela Lâmina do Medo e sobreviver, o ferimento causado pelo ritual passa a se transformar constantemente, jamais cicatrizando e fazendo com que a pessoa passe a viver em dor constante. Aprender este ritual requer um poder de trilha específico.",
+        "discente":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "verdadeiro":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "imgSrc": "https://i.imgur.com/0UPQ0cc.png"
+    },
+    {
+        "nome":         "Medo Tangível",
+        "elemento":     "** Medo **",
+        "circulo":      "4°",
+        "execucao":     "padrão",
+        "alcance":      "pessoal",
+        "alvo":         "você",
+        "duracao":      "cena",
+        "resistencia":  "Nenhuma",
+        "descricao":    "O ritual transforma seu corpo em uma manifestação do Medo, tornando-o imune a efeitos mundanos. Você fica imune às condições atordoado, cego, debilitado, enjoado, envenenado, exausto, fatigado, fraco, lento, 136 ofuscado e paralisado, além de doenças e venenos, e não sofre dano adicional por acertos críticos e ataques furtivos. Além disso, dano do tipo balístico, corte, impacto ou perfuração não podem reduzir seu total de pontos de vida abaixo de 1, tornando-o virtualmente imortal contra efeitos mundanos.",
+        "discente":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "verdadeiro":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "imgSrc": "https://i.imgur.com/0UPQ0cc.png"
+    },
+    {
+        "nome":         "Presença do Medo",
+        "elemento":     "** Medo **",
+        "circulo":      "4°",
+        "execucao":     "padrão",
+        "alcance":      "pessoal",
+        "alvo":         "emanação de 9m de raio",
+        "duracao":      "sustentada",
+        "resistencia":  "Nenhuma",
+        "descricao":    "Você se torna um receptáculo para o Medo puro, emanando ondas de pavor e ruína. Alvos dentro da área no momento da conjuração ou no início de cada um de seus turnos são acometidos por sofrimento intenso e sofrem 5d8 de dano mental e 5d8 de dano de Medo (Vontade reduz ambos à metade). Alvos que falharem no teste ficam atordoados por uma rodada (este efeito funciona apenas uma vez por cena).",
+        "discente":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "verdadeiro":{
+            "custo": 0,
+            "desc": "Não tem"
+        },
+        "imgSrc": "https://i.imgur.com/0UPQ0cc.png"
     }
 ]

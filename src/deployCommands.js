@@ -56,4 +56,7 @@ const rest = new REST({ version: '9' }).setToken(token);
     } catch (err) {
         console.error(err);
     }
+
+
+    
 })();

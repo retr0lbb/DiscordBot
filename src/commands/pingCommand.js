@@ -5,6 +5,6 @@ module.exports = {
         .setName("ping")
         .setDescription("Bot shoud reply with pong"),
         async execute(interac){
-            await interac.reply("Poiiiiing")
+            await interac.reply("Pong")
         }
 }

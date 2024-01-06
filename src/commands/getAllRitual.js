@@ -65,25 +65,24 @@ module.exports = {
             option.setName('ritual')
                 .setDescription('o ritual que vc quer achar')
                 .setRequired(true)
-                .setAutocomplete(true)),
-        
-        
-        
-            
-            //main
-            async autoComplete(interact) {
-                const focusedValue = interact.options.getFocused();
+                .setAutocomplete(true)
+        ),
 
-                // Aqui você pode gerar dinamicamente as opções de autocompletar com base nos resultados
+        //Auto Complete
+            async autoComplete(interact) {
+                const focusedValue = interact.options.getFocused(true);
+
+
                 const ritualNames = results.map((ritual) => ritual.nome);
-                const filtered = ritualNames.filter((ritualName) => ritualName.startsWith(focusedValue));
-                console.log(filtered)
-                // Limitar o número de opções de autocompletar para 25
-                const limitedChoices = filtered.slice(0, 25);
-            
+                let choice;
+                if(focusedValue.name === 'ritual'){
+                    const filtered = ritualNames.filter((ritualName) => ritualName.startsWith(focusedValue.value));
+                    const limitedChoices = filtered.slice(0, 25);
+                    choice = limitedChoices;
+                }
                 // Responder com as opções de autocompletar limitadas
                 await interact.respond(
-                    limitedChoices.map((choice) => ({ name: choice, value: choice }))
+                    choice.map((choice) => ({ name: choice, value: choice }))
                 );
             },
             async execute(interac){
@@ -104,6 +103,7 @@ module.exports = {
                     {name: "alcance", value: ritual.alcance},
                     {name: "execucao", value: ritual.execucao},
                     {name: "alvo", value: ritual.alvo},
+                    {name: "Resistencia", value: ritual.resistencia? ritual.resistencia : "não tem"},
                     {name: `Discente (+${ritual.discente.custo}PE)`, value: ritual.discente.desc},
                     {name: `Verdadeiro (+${ritual.verdadeiro.custo}PE)`, value: ritual.verdadeiro.desc}
                 )
