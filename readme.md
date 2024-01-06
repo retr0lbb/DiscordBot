@@ -16,3 +16,12 @@ Futuramente eu planejo implementar um outro sistema de busca para os rituals com
 
 
 ## Galeria
+
+#### Mensagem final do discord
+![Captura de tela 2024-01-06 160919](https://github.com/retr0lbb/DiscordBot/assets/85702153/0f107335-6776-4471-ab97-bcabf0b5c776)
+
+#### Auto complete example
+![image](https://github.com/retr0lbb/DiscordBot/assets/85702153/a29c39c0-5d62-4690-88c2-74b455f65e1e)
+
+#### Print da tela
+![image](https://github.com/retr0lbb/DiscordBot/assets/85702153/d1a810ef-b6ed-4259-91bc-0825eb6d75f8)
