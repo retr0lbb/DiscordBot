@@ -4,6 +4,8 @@ const path = require("path")
 const fs = require("fs")
 const {Collection} = require("discord.js");
 require("dotenv").config();
+const express = require('express')
+const app = express()
 
 const BOT_TOKEN = process.env.BOT_TOKEN;
 
@@ -83,6 +85,10 @@ client.on("interactionCreate",async (interaction) =>{
 
 client.start(BOT_TOKEN);
 
+
+app.get("/", (req, res) =>{
+    res.send("Bot funcionando")
+})
 
 
 module.exports = () => {};
